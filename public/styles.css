@@ -1,0 +1,71 @@
+main {
+  background-image: url("images/vintage_paper_background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  color: white; }
+
+.tileBox {
+  min-height: 30em; }
+
+.tile {
+  border: 4px solid #92ced1;
+  color: rgba(255, 255, 255, 0); }
+
+.tile:hover {
+  transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transition: all 0.5s ease-in-out 0s;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s; }
+
+.famFirst {
+  min-height: 10em;
+  background-image: url("images/Family First.png");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.four {
+  min-height: 10em; }
+
+.apiTunes {
+  min-height: 17em;
+  background-image: url("images/APItunes.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.gridGrind {
+  min-height: 8em;
+  background-image: url("images/Grid Grinder.png");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.andFriend {
+  min-height: 9em;
+  background-image: url("images/And Friend.png");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.flushBook {
+  min-height: 9em;
+  background-image: url("images/Flushbook.png");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.hidden {
+  display: none; }
+
+.aboutContainer {
+  background-color: rgba(206, 236, 236, 0.48);
+  height: 27em;
+  border-radius: 5px; }
+
+.techStack img {
+  width: 10%; }
+
+.githublink {
+  width: 8%;
+  float: right; }
