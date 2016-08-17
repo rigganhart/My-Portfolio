@@ -5,6 +5,7 @@ main {
   height: 100%;
   color: white;
 }
+
 .tileBox{
   // border: 2px solid white;
   min-height: 27em;
@@ -105,6 +106,10 @@ main {
 }
 .topBar h1{
   display: inline-block;
+}
+.topBar h4{
+  display: inline-block;
+  margin-left: 3%;
 }
 .icons a{
   width: 49%;
