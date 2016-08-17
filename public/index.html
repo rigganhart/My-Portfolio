@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>Riggan Hart</title>
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css" media="screen" title="no title" charset="utf-8">
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <link rel="stylesheet" href="styles.css">
@@ -20,57 +21,157 @@
 
         <div class="row topBar">
             <h1>Riggan Hart</h1>
+            <div class="icons">
+            <a class="topGithubLink" href="https://github.com/rigganhart" target="_blank"><h2><i class="fa fa-github-square" aria-hidden="true"></i></h2></a>
+            <a class="topGithubLink" href="https://www.linkedin.com/in/rigganhart" target="_blank"><h2><i class="fa fa-linkedin-square" aria-hidden="true"></i></h2></a>
+            </div>
             <h3>Solving problems through programming</h3>
         </div>
         <div class="main row ">
             <div class="tileBox small-11 medium-6 large-6 columns">
                 <!-- <h5>Projects</h5> -->
 
-                <div class="tile famFirst  row ">
-                    <h5>Family First</h5>
-                </div>
+                <a href="#" id="famFirst">
+                    <div class="tile famFirst  row ">
+                        <!-- <h5>Family First</h5> -->
+                    </div>
+                </a>
                 <div class="row">
 
                     <div class="three small-8 columns">
 
 
-                        <div class="tile gridGrind row">
-                            <h5>Grid Grinder</h5>
-                        </div>
+                        <a href="#" id="ism">
+                            <div class="tile volunteer row">
+
+                                <!-- <h5>Grid Grinder</h5> -->
+                            </div>
+                        </a>
                         <div class=" two row">
 
 
-                            <div class="tile andFriend small-6 columns">
-                                <h5>And Friend...</h5>
-                            </div>
-                            <div class="tile flushBook small-6 columns">
-                                <h5>Flushbook</h5>
-                            </div>
+                            <a href="#" id="friend">
+                                <div class="tile andFriend small-6 columns">
+                                    <!-- <h5>And Friend...</h5> -->
+                                </div>
+                            </a>
+                            <a href="#" id="grid">
+                                <div class="tile gridGrind small-6 columns">
+                                    <!-- <h5>Flushbook</h5> -->
+                                </div>
+                            </a>
                         </div>
                     </div>
 
-                <div class="tile apiTunes small-4 columns">
-                    <h5>Api-Tunes</h5>
+                    <a href="#" id="api">
+                        <div class="tile apiTunes small-4 columns">
+                            <!-- <h5>Api-Tunes</h5> -->
+                        </div>
+                    </a>
+                </div>
+                <h6>Click on an image to see information about each project</h6>
+            </div>
+            <div class="aboutContainer small-11 medium-5 large-5 columns">
+                <div id="family" class="aboutSection small-12">
+                    <h2>Family First</h2>
+                    <a class="githublink" href="https://github.com/rigganhart/FamilyFirst" target="_blank"><img src="images/logos-github-icon.png" alt="" /></a>
+                    <p>
+                        Family First combines a simple UI with easy automation and encryption to help keep track of all the tasks associated with caring for a loved one. </p>
+                    <p>
+                        There are two views: Tasks and Medications.
+                    </p>
+                    <p>
+                        The Tasks view allows users to add tasks throughout the day as needed. Tasks are automatically removed after 24hrs to reduce clutter.
+
+                    </p>
+                    <p>
+                        The Medication view allows users to input all medications needed. There is an easy to use timer to track when to give medications.
+
+                    </p>
+                    <p>
+                      Try a demo version <a href="http://family-first-demo.herokuapp.com/#/medication" target="_blank" >Here</a>
+                    </p>
+                    <div class="techStack">
+                        <h5>Front End Stack:</h5>
+                        <img src="images/angularjs-stacked1.png" alt="" /><img src="images/foundationlogo.png" alt="" /><img src="images/CSS3_and_HTML5_badges.svg.png" alt="" /><img src="images/gulp.png" alt="" /><img src="images/seal-color-aef0354c.png"
+                            alt="" />
+                    </div>
+                </div>
+                <div id="grind" class="aboutSection small-12 hidden">
+                    <h2>Grid Grinder</h2>
+                    <a class="githublink" href="https://github.com/rigganhart/grid-grinder" target="_blank"><img src="images/logos-github-icon.png" alt="" /></a>
+                    <p>
+                        Grid Grinder is my introduction to MVC and Backbone. This project made learning Angular much easier.
+                      </p>
+                      <p>
+                        The challenge was to make a grid based game that has a player that moves around a grid, and loses energy each time it moves.
+                      </p>
+                      <p>
+                        After succeding in movement with energy loss, I added a energy boost and an energy decreasing bad guy. I intend to keep working on this game for practice and fun. Some ideas are: a score boost/decrease and a constantly moving bad guy.
+                      </p>
+                      <h6>Check it out live <a href="http://riggan-grid-grinder.surge.sh/" target="_blank">Here</a></h6>
+                    <div class="techStack">
+                        <h5>Front End Stack:</h5>
+                        <img src="images/backbone-300x300.png" alt="" /><img src="images/CSS3_and_HTML5_badges.svg.png" alt="" /><img src="images/gulp.png" alt="" /><img src="images/seal-color-aef0354c.png"
+                            alt="" />
+                    </div>
+                </div>
+                <div id="tunes" class="aboutSection small-12 hidden">
+                    <h2>Apitunes</h2>
+                    <a class="githublink" href="https://github.com/APitunesGroup/APitunes" target="_blank"><img src="images/logos-github-icon.png" alt="" /></a>
+                    <p>
+                      Apitunes was a weekend group project useing angular on frontend and many to one relationships in java
+                    </p>
+                    <p>
+                      We wanted to create a place for artists to upload thier songs for the community to listen to them and up/down vote on the songs.
+                    </p>
+                    It is designed so that only artists can upload songs, but anyone can vote for songs.
+                    <div class="techStack">
+                        <h5>Front End Stack:</h5>
+                        <img src="images/angularjs-stacked1.png" alt="" /><img src="images/foundationlogo.png" alt="" /><img src="images/CSS3_and_HTML5_badges.svg.png" alt="" /><img src="images/gulp.png" alt="" /><img src="images/seal-color-aef0354c.png"
+                            alt="" />
+                    </div>
+                </div>
+                <div id="aF" class="aboutSection small-12 hidden">
+                    <h2>And Friend...</h2>
+                    <a class="githublink" href="https://github.com/rigganhart/friends-app" target="_blank"><img src="images/logos-github-icon.png" alt="" /></a>
+                    <p>
+                      And Friend was an assignment to use 'vanilla' Js to make http requests and manipulate the DOM using the Random User API
+                        </p>
+                        <p>
+                          The idea is that a user can create the illusion of having tons of friends by adding or not adding "friends" from a list of random people that is added at a set interval.
+                        </p>
+                        <p>
+                          Planned additions are a random hobby genereator that will assign each user a random hobby out of a set of 10 hobbies.
+                        </p>
+                        <p>
+                          Check it out live <a href="http://and-friend-demo.surge.sh" target="_blank">Here</a>
+                        </p>
+                    <div class="techStack">
+                        <h5>Front End Stack:</h5>
+                        <img src="images/js-logo-badge-512.png" alt="" /><img src="images/CSS3_and_HTML5_badges.svg.png" alt="" /><img src="images/gulp.png" alt="" /><img src="images/seal-color-aef0354c.png"
+                            alt="" />
+                    </div>
+                </div>
+                <div id="vol" class="aboutSection small-12 hidden">
+                    <h2>Volunteerism</h2>
+                    <a class="githublink" href="https://github.com/rigganhart/volunteerism" target="_blank"><img src="images/logos-github-icon.png" alt="" /></a>
+                    <p>
+                      My first time using Node.js and Hapi. The next step is to learn some basic MongoDB.
+                        </p>
+                        <p>
+The problem with volunteering is we only have a little time and there is alot to volunteer for.                         </p>
+                        <p>
+Volunteerism aims to help people who love to donate their time keep track of all the events they love, and to sign up as well.
+                        </p>
+
+                    <div class="techStack">
+                        <h5>Front End Stack:</h5>
+                        <img src="images/angularjs-stacked1.png" alt="" /><img src="images/nodejs_logo.png" alt="" /><img src="images/hapi.png" alt="" /><img src="images/CSS3_and_HTML5_badges.svg.png" alt="" /><img src="images/gulp.png" alt="" /><img src="images/seal-color-aef0354c.png"
+                            alt="" />
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="aboutContainer small-11 medium-5 large-5 columns">
-          <div class="about section1 small-11">
-            <h5>Family First</h5>
-            <a class="githublink" href="https://github.com/rigganhart/FamilyFirst"><img src="images/logos-github-icon.png" alt="" /></a>
-            <p>
-              Family first is a web application designed to assist a group of caregivers with communication of needs for a sick loved one.
-            </p>
-            <p>
-               The task view is for letting the group know what needs to be done day to day. Tasks are automatically removed after 24hrs to decrease clutter. Adding a task is a single input that automatically tracks who created the task, and who completed the task. There is a comments section to add details later, or edit the info in the task.
-              The medication view is for tracking when medications have been given, and when it is time to administer more medication.
-            </p>
-            <div class="techStack">
-              <h5>Front End Stack:</h5>
-              <img src="images/angularjs-stacked1.png" alt="" /><img src="images/foundationlogo.png" alt="" /><img src="images/CSS3_and_HTML5_badges.svg.png" alt="" /><img src="images/gulp.png" alt="" /><img src="images/seal-color-aef0354c.png" alt="" />
-            </div>
-          </div>
-        </div>
         </div>
     </main>
 </body>

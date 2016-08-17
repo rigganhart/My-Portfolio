@@ -6,7 +6,9 @@ main {
   color: white; }
 
 .tileBox {
-  min-height: 30em; }
+  min-height: 27em;
+  text-align: center;
+  text-shadow: 1px 1px 2px black; }
 
 .tile {
   border: 4px solid #92ced1;
@@ -37,9 +39,9 @@ main {
   background-size: cover;
   background-repeat: no-repeat; }
 
-.gridGrind {
+.volunteer {
   min-height: 8em;
-  background-image: url("images/Grid Grinder.png");
+  background-image: url("images/volunteer.png");
   background-size: cover;
   background-repeat: no-repeat; }
 
@@ -49,9 +51,9 @@ main {
   background-size: cover;
   background-repeat: no-repeat; }
 
-.flushBook {
+.gridGrind {
   min-height: 9em;
-  background-image: url("images/Flushbook.png");
+  background-image: url("images/Grid Grinder.png");
   background-size: cover;
   background-repeat: no-repeat; }
 
@@ -61,11 +63,45 @@ main {
 .aboutContainer {
   background-color: rgba(206, 236, 236, 0.48);
   height: 27em;
-  border-radius: 5px; }
+  border-radius: 5px;
+  padding: 1%;
+  color: black; }
 
 .techStack img {
-  width: 10%; }
+  width: 10%;
+  margin-right: 1%; }
 
 .githublink {
+  display: inline-block;
   width: 8%;
   float: right; }
+
+.topGithubLink {
+  display: inline-block;
+  width: 8%;
+  float: right; }
+
+.aboutSection h2 {
+  display: inline-block;
+  text-shadow: 1px 1px 2px black; }
+
+.aboutSection {
+  max-height: 100%;
+  overflow: scroll; }
+
+.topBar {
+  text-shadow: 1px 1px 2px black; }
+
+.topBar h3 {
+  text-align: center; }
+
+.topBar h1 {
+  display: inline-block; }
+
+.icons a {
+  width: 49%; }
+
+.icons {
+  float: right;
+  margin-right: 15%;
+  width: 8%; }
