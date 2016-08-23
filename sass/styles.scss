@@ -1,9 +1,18 @@
-main {
-  background-image: url("images/vintage_paper_background.jpg");
+
+body {
+  background-image: url("images/vintage_paper_background-min.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100%;
+}
+
+main {
+  // background-image: url("images/vintage_paper_background.jpg");
+  // background-size: cover;
+  // background-repeat: no-repeat;
+  // height: 100%;
   color: white;
+  // overflow: scroll;
+  margin-bottom: 10%;
 }
 
 .tileBox{
@@ -15,7 +24,7 @@ main {
 }
 .tile{
   // margin-top: 1%;
-  border: 4px solid #92ced1;
+border: 4px solid rgb(59, 255, 184);
     color: rgba(255, 255, 255, 0);
 }
 .tile:hover{
@@ -30,7 +39,7 @@ main {
 }
 .famFirst{
   min-height: 10em;
-  background-image: url("images/Family First.png");
+  background-image: url("images/Family First-min.png");
   background-size: cover;
   background-repeat: no-repeat;
 
@@ -40,27 +49,27 @@ main {
 }
 .apiTunes{
   min-height: 17em;
-  background-image: url("images/APItunes.jpg");
+  background-image: url("images/APItunes-min.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 
 }
 .volunteer{
       min-height: 8em;
-      background-image: url("images/volunteer.png");
+      background-image: url("images/volunteer-min.png");
       background-size: cover;
       background-repeat: no-repeat;
 
 }
 .andFriend{
     min-height: 9em;
-    background-image: url("images/And Friend.png");
+    background-image: url("images/And Friend-min.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
 .gridGrind{
       min-height: 9em;
-      background-image: url("images/Grid Grinder.png");
+      background-image: url("images/Grid Grinder-min.png");
       background-size: cover;
       background-repeat: no-repeat;
 }
@@ -69,7 +78,7 @@ main {
 }
 .aboutContainer{
   background-color: rgba(206, 236, 236, 0.48);
-    height: 27em;
+    height: 30em;
     border-radius: 5px;
     padding: 1%;
     color: black;
@@ -101,9 +110,11 @@ main {
 }
 .topBar{
   text-shadow: 1px 1px 2px black;
+  margin-bottom: 3%;
 }
 .topBar h3{
   text-align: center;
+  margin-top: -2%;
 }
 .topBar h1{
   display: inline-block;
