@@ -5,11 +5,7 @@ body {
 
 main {
   color: white;
-<<<<<<< HEAD
-  margin-bottom: 10%; }
-=======
   margin-bottom: 5%; }
->>>>>>> 91f1f80b99efd66f5726a52b5738eaf877df0ffb
 
 .tileBox {
   min-height: 27em;
@@ -17,11 +13,7 @@ main {
   text-shadow: 1px 1px 2px black; }
 
 .tile {
-<<<<<<< HEAD
-  border: 4px solid #3bffb8;
-=======
   border: 4px solid #3bffc1;
->>>>>>> 91f1f80b99efd66f5726a52b5738eaf877df0ffb
   color: rgba(255, 255, 255, 0); }
 
 .tile:hover {
@@ -102,19 +94,12 @@ main {
 
 .topBar {
   text-shadow: 1px 1px 2px black;
-<<<<<<< HEAD
-  margin-bottom: 3%; }
-
-.topBar h3 {
-  text-align: center;
-  margin-top: -2%; }
-=======
   margin-bottom: 2%; }
 
 .topBar h3 {
   margin-top: -2%;
-  text-align: center; }
->>>>>>> 91f1f80b99efd66f5726a52b5738eaf877df0ffb
+  text-align: center;
+  margin-top: -2%; }
 
 .topBar h1 {
   display: inline-block; }
