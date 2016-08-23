@@ -1,18 +1,18 @@
 
-body {
+body{
   background-image: url("images/vintage_paper_background-min.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
+
 main {
-  // background-image: url("images/vintage_paper_background.jpg");
+  // background-image: url("images/vintage_paper_background-min.jpg");
   // background-size: cover;
   // background-repeat: no-repeat;
   // height: 100%;
   color: white;
-  // overflow: scroll;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
 
 .tileBox{
@@ -24,7 +24,8 @@ main {
 }
 .tile{
   // margin-top: 1%;
-border: 4px solid rgb(59, 255, 184);
+
+border: 4px solid rgb(59, 255, 193);
     color: rgba(255, 255, 255, 0);
 }
 .tile:hover{
@@ -110,9 +111,12 @@ border: 4px solid rgb(59, 255, 184);
 }
 .topBar{
   text-shadow: 1px 1px 2px black;
-  margin-bottom: 3%;
+
+  margin-bottom: 2%;
 }
 .topBar h3{
+  margin-top: -2%;
+
   text-align: center;
   margin-top: -2%;
 }
