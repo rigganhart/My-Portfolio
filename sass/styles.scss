@@ -1,16 +1,19 @@
 
-body{
+html{
   background-image: url("images/vintage_paper_background-min.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
-
+body{
+  background-color: transparent;
+}
 
 main {
   // background-image: url("images/vintage_paper_background-min.jpg");
   // background-size: cover;
   // background-repeat: no-repeat;
   // height: 100%;
+  background-color: transparent;
   color: white;
   margin-bottom: 5%;
 }
@@ -107,7 +110,6 @@ border: 4px solid rgb(59, 255, 193);
 }
 .aboutSection{
   max-height: 100%;
-  overflow: scroll;
 }
 .topBar{
   text-shadow: 1px 1px 2px black;
@@ -116,9 +118,9 @@ border: 4px solid rgb(59, 255, 193);
 }
 .topBar h3{
   margin-top: -2%;
-
   text-align: center;
   margin-top: -2%;
+  font-style: italic;
 }
 .topBar h1{
   display: inline-block;

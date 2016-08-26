@@ -1,9 +1,13 @@
-body {
+html {
   background-image: url("images/vintage_paper_background-min.jpg");
   background-size: cover;
   background-repeat: no-repeat; }
 
+body {
+  background-color: transparent; }
+
 main {
+  background-color: transparent;
   color: white;
   margin-bottom: 5%; }
 
@@ -89,8 +93,7 @@ main {
   text-shadow: 1px 1px 2px black; }
 
 .aboutSection {
-  max-height: 100%;
-  overflow: scroll; }
+  max-height: 100%; }
 
 .topBar {
   text-shadow: 1px 1px 2px black;
@@ -99,7 +102,8 @@ main {
 .topBar h3 {
   margin-top: -2%;
   text-align: center;
-  margin-top: -2%; }
+  margin-top: -2%;
+  font-style: italic; }
 
 .topBar h1 {
   display: inline-block; }
