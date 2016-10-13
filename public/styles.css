@@ -78,7 +78,8 @@ body {
   height: 30em;
   border-radius: 5px;
   padding: 1%;
-  color: black; }
+  color: black;
+  height: auto; }
 
 .techStack img {
   width: 10%;
